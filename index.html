@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>CSS Positioning Exercise</title>
+  <style>
+    /* Write your code here */
+    .red-circle{
+      background-color: red;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      position: absolute;
+      top: 150px;
+      left: 250px;
+    }
+
+    .blue-box{
+      background-color: blue;
+      width: 500px;
+      height: 300px;
+      position: relative;
+      top: 200px;
+      left: 200px;
+    }
+
+    .nav-bar{
+      background-color: black;
+      position: fixed;
+      display: inline;
+      height: 30px;
+      width: 100%;
+      text-align: center;
+    }
+    .Menu{
+      display: inline;
+      text-decoration: none;
+      padding: 0%;
+    }
+    .Menu-item{
+      border: 2px solid white;
+      margin: 5px;
+      display: inline;
+      color: beige;
+      text-decoration: none;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="nav-bar">
+    <ul class="nav-bar Menu">
+      <li class="Menu-item">Home</li>
+      <li class="Menu-item">Contact-us</li>
+      <li class="Menu-item">About us</li>
+    </ul>
+  </div>
+  <div class="blue-box">
+    <div class="red-circle">
+    </div>
+  </div>
+
+</body>
+
+</html>
